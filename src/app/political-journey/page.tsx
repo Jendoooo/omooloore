@@ -79,7 +79,7 @@ export default function PoliticalJourneyPage() {
                                 <h3 className="text-5xl font-bold font-serif text-[var(--color-apc-green)] mb-2">1999</h3>
                                 <p className="text-sm font-bold uppercase tracking-widest text-[var(--color-charcoal)] mb-2">APC Membership</p>
                                 <p className="text-sm font-light text-gray-500">
-                                    A foundation member demonstrating deep-seated loyalty to the progressive ideology.
+                                    A foundation party member and a consistent, loyal grassroots mobilizer since the beginning.
                                 </p>
                             </motion.div>
 

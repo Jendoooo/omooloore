@@ -19,7 +19,7 @@ const footerLinks = {
     social: [
         { href: 'https://web.facebook.com/asiwaju.Omoowo', label: 'Facebook', Icon: FaFacebookF },
         { href: 'https://twitter.com', label: 'Twitter/X', Icon: FaXTwitter },
-        { href: 'https://instagram.com', label: 'Instagram', Icon: FaInstagram },
+        { href: 'https://www.instagram.com/asiwaju_omoowo?igsh=MWxqYWE0Zmgzd2F2cg==', label: 'Instagram', Icon: FaInstagram },
     ],
 };
 
