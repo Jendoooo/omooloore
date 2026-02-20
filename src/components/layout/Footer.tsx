@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { FaFacebookF, FaXTwitter, FaInstagram } from 'react-icons/fa6';
+import { FaFacebookF, FaXTwitter, FaInstagram, FaTiktok } from 'react-icons/fa6';
 
 const footerLinks = {
     navigation: [
@@ -18,8 +18,9 @@ const footerLinks = {
     ],
     social: [
         { href: 'https://web.facebook.com/asiwaju.Omoowo', label: 'Facebook', Icon: FaFacebookF },
-        { href: 'https://twitter.com', label: 'Twitter/X', Icon: FaXTwitter },
-        { href: 'https://www.instagram.com/asiwaju_omoowo?igsh=MWxqYWE0Zmgzd2F2cg==', label: 'Instagram', Icon: FaInstagram },
+        { href: 'https://x.com/Ayeolaha', label: 'X (Twitter)', Icon: FaXTwitter },
+        { href: 'https://www.tiktok.com/@asiwaju_omoowo', label: 'TikTok', Icon: FaTiktok },
+        { href: 'https://www.instagram.com/asiwaju_omoowo', label: 'Instagram', Icon: FaInstagram },
     ],
 };
 
@@ -50,7 +51,7 @@ export default function Footer() {
                                 Ọmọ Olóore<span className="text-[var(--color-wealth-gold)]">.</span>
                             </h2>
                             <p className="text-[10px] uppercase font-bold tracking-[0.3em] text-[var(--color-apc-green)] mb-6">
-                                The Benefactor
+                                A Promising Political Leader (Ọmọ Olóore)
                             </p>
                             <p className="text-white/60 font-light text-lg max-w-md leading-relaxed">
                                 A dedicated public servant committed to the progressive development of Lekki LCDA, grounded in 45 years of authentic grassroots connection.

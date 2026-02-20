@@ -39,14 +39,15 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <p className="text-[10px] uppercase tracking-widest text-[#8fb9a8] mb-1">Email</p>
-                                    <p className="text-xl font-light">info@omoloore.com</p>
+                                    <p className="text-xl font-light truncate">ayeolaademola80@gmail.com</p>
                                 </div>
                                 <div>
                                     <p className="text-[10px] uppercase tracking-widest text-[#8fb9a8] mb-1">Social Networks</p>
                                     <div className="flex gap-4 mt-2">
                                         <a href="https://web.facebook.com/asiwaju.Omoowo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">FB</a>
-                                        <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">TW</a>
-                                        <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">IG</a>
+                                        <a href="https://x.com/Ayeolaha" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">X</a>
+                                        <a href="https://www.tiktok.com/@asiwaju_omoowo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">TT</a>
+                                        <a href="https://www.instagram.com/asiwaju_omoowo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">IG</a>
                                     </div>
                                 </div>
                             </div>
@@ -65,27 +66,31 @@ export default function ContactPage() {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="lg:col-span-7 bg-white rounded-[3rem] p-8 lg:p-16 shadow-2xl border border-black/5"
                     >
-                        <form className="space-y-8">
+                        <form action="https://formsubmit.co/ayeolaademola80@gmail.com" method="POST" className="space-y-8">
                             <div className="grid md:grid-cols-2 gap-8">
                                 <div className="space-y-2">
                                     <label className="text-[10px] font-bold uppercase tracking-widest text-[var(--color-charcoal)]">Full Name</label>
-                                    <input type="text" className="w-full bg-[var(--color-platinum)] border border-transparent focus:border-[var(--color-wealth-gold)] focus:bg-white rounded-xl px-4 py-4 text-sm transition-all outline-none" placeholder="Your name" />
+                                    <input type="text" name="name" required className="w-full bg-[var(--color-platinum)] border border-transparent focus:border-[var(--color-wealth-gold)] focus:bg-white rounded-xl px-4 py-4 text-sm transition-all outline-none" placeholder="Your name" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-[10px] font-bold uppercase tracking-widest text-[var(--color-charcoal)]">Email Address</label>
-                                    <input type="email" className="w-full bg-[var(--color-platinum)] border border-transparent focus:border-[var(--color-wealth-gold)] focus:bg-white rounded-xl px-4 py-4 text-sm transition-all outline-none" placeholder="Your email" />
+                                    <input type="email" name="email" required className="w-full bg-[var(--color-platinum)] border border-transparent focus:border-[var(--color-wealth-gold)] focus:bg-white rounded-xl px-4 py-4 text-sm transition-all outline-none" placeholder="Your email" />
                                 </div>
                             </div>
 
                             <div className="space-y-2">
                                 <label className="text-[10px] font-bold uppercase tracking-widest text-[var(--color-charcoal)]">Subject</label>
-                                <input type="text" className="w-full bg-[var(--color-platinum)] border border-transparent focus:border-[var(--color-wealth-gold)] focus:bg-white rounded-xl px-4 py-4 text-sm transition-all outline-none" placeholder="What is this regarding?" />
+                                <input type="text" name="_subject" required className="w-full bg-[var(--color-platinum)] border border-transparent focus:border-[var(--color-wealth-gold)] focus:bg-white rounded-xl px-4 py-4 text-sm transition-all outline-none" placeholder="What is this regarding?" />
                             </div>
 
                             <div className="space-y-2">
                                 <label className="text-[10px] font-bold uppercase tracking-widest text-[var(--color-charcoal)]">Message</label>
-                                <textarea rows={5} className="w-full bg-[var(--color-platinum)] border border-transparent focus:border-[var(--color-wealth-gold)] focus:bg-white rounded-2xl px-4 py-4 text-sm transition-all outline-none resize-none" placeholder="Your message here..." />
+                                <textarea name="message" rows={5} required className="w-full bg-[var(--color-platinum)] border border-transparent focus:border-[var(--color-wealth-gold)] focus:bg-white rounded-2xl px-4 py-4 text-sm transition-all outline-none resize-none" placeholder="Your message here..." />
                             </div>
+
+                            {/* Hidden fields for form routing */}
+                            <input type="hidden" name="_captcha" value="false" />
+                            <input type="hidden" name="_template" value="table" />
 
                             <button type="submit" className="bg-[var(--color-deep-forest)] text-[var(--color-wealth-gold)] w-full py-5 rounded-full text-xs font-bold uppercase tracking-[0.2em] hover:bg-black transition-colors">
                                 Send Message

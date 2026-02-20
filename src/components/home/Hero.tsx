@@ -88,7 +88,7 @@ export default function Hero() {
                                 </div>
                                 <div>
                                     <p className="text-white text-xs font-bold uppercase tracking-widest">Ọmọ Olóore</p>
-                                    <p className="text-[var(--color-wealth-gold)] text-[10px] uppercase tracking-widest">The Benefactor</p>
+                                    <p className="text-[var(--color-wealth-gold)] text-[10px] uppercase tracking-widest">A Promising Political Leader</p>
                                 </div>
                             </div>
                         </div>
