@@ -143,9 +143,6 @@ export default function Footer() {
                     <p className="text-[clamp(10px,2vw,14px)] text-white/40 font-light mb-8 text-center uppercase tracking-widest">
                         Designed with progressive intent &bull; &copy; {new Date().getFullYear()} Hon. Ayeola Hammed Ademola
                     </p>
-                    <h1 className="text-[clamp(40px,15vw,250px)] font-serif font-bold text-white/5 uppercase tracking-tighter leading-none select-none pointer-events-none">
-                        Progress.
-                    </h1>
                 </div>
 
             </div>
