@@ -34,13 +34,17 @@ export default function ContactPage() {
 
                             <div className="space-y-8 relative z-10">
                                 <div>
+                                    <p className="text-[10px] uppercase tracking-widest text-[#8fb9a8] mb-1">WhatsApp / Phone</p>
+                                    <p className="text-xl font-light">0705 589 8989</p>
+                                </div>
+                                <div>
                                     <p className="text-[10px] uppercase tracking-widest text-[#8fb9a8] mb-1">Email</p>
                                     <p className="text-xl font-light">info@omoloore.com</p>
                                 </div>
                                 <div>
                                     <p className="text-[10px] uppercase tracking-widest text-[#8fb9a8] mb-1">Social Networks</p>
                                     <div className="flex gap-4 mt-2">
-                                        <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">FB</a>
+                                        <a href="https://web.facebook.com/asiwaju.Omoowo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">FB</a>
                                         <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">TW</a>
                                         <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[var(--color-deep-forest)] transition-colors">IG</a>
                                     </div>

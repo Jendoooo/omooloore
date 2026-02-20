@@ -17,7 +17,7 @@ const footerLinks = {
         { href: '/contact', label: 'Connect' },
     ],
     social: [
-        { href: 'https://facebook.com', label: 'Facebook', Icon: FaFacebookF },
+        { href: 'https://web.facebook.com/asiwaju.Omoowo', label: 'Facebook', Icon: FaFacebookF },
         { href: 'https://twitter.com', label: 'Twitter/X', Icon: FaXTwitter },
         { href: 'https://instagram.com', label: 'Instagram', Icon: FaInstagram },
     ],
