@@ -91,6 +91,7 @@ export default function ContactPage() {
                             {/* Hidden fields for form routing */}
                             <input type="hidden" name="_captcha" value="false" />
                             <input type="hidden" name="_template" value="table" />
+                            <input type="hidden" name="_next" value="https://omooloore.vercel.app/contact/success" />
 
                             <button type="submit" className="bg-[var(--color-deep-forest)] text-[var(--color-wealth-gold)] w-full py-5 rounded-full text-xs font-bold uppercase tracking-[0.2em] hover:bg-black transition-colors">
                                 Send Message
