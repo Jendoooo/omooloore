@@ -108,7 +108,7 @@ export default function AboutPage() {
                                     src="/images/portraits/highres-3.jpeg"
                                     alt="Hon. Ayeola Hammed Ademola"
                                     fill
-                                    className="object-cover"
+                                    className="object-cover object-top"
                                 />
                                 {/* Soft overlay */}
                                 <div className="absolute inset-0 bg-[var(--color-deep-forest)] mix-blend-color opacity-10" />

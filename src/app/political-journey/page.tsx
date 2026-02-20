@@ -51,7 +51,7 @@ export default function PoliticalJourneyPage() {
                                 src="/images/political/bat-game.png"
                                 alt="BAT GAME Movement"
                                 fill
-                                className="object-cover object-center opacity-60 group-hover:opacity-40 group-hover:scale-105 transition-all duration-700 mix-blend-luminosity"
+                                className="object-cover object-top opacity-60 group-hover:opacity-40 group-hover:scale-105 transition-all duration-700 mix-blend-luminosity"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-deep-forest)] via-[var(--color-deep-forest)]/60 to-transparent" />
 
