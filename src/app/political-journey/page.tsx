@@ -90,17 +90,17 @@ export default function PoliticalJourneyPage() {
                                 transition={{ duration: 0.8, delay: 0.3 }}
                                 className="bg-gradient-to-br from-[var(--color-wealth-gold)] to-[#b08c40] rounded-3xl p-8 flex-1 flex flex-col justify-center text-white"
                             >
-                                <h3 className="text-2xl font-bold font-serif mb-4">Campaign Leadership</h3>
-                                <ul className="space-y-3">
-                                    <li className="flex items-start gap-2">
-                                        <span className="mt-1 text-white/50">→</span>
-                                        <span className="text-sm font-medium">Tokunbo Abiru Campaign</span>
-                                    </li>
-                                    <li className="flex items-start gap-2">
-                                        <span className="mt-1 text-white/50">→</span>
-                                        <span className="text-sm font-medium">Sanwo-Olu/Hamzat Agent (2019)</span>
-                                    </li>
-                                </ul>
+                                <h3 className="text-2xl font-bold font-serif mb-6">Strategic Engagements</h3>
+                                <div className="space-y-5">
+                                    <div className="border-l-2 border-white/30 pl-4 py-1">
+                                        <p className="text-[10px] font-bold uppercase tracking-widest text-[#f0dfb3] mb-1">Key Driver</p>
+                                        <p className="text-sm font-medium">Tokunbo Abiru Campaign</p>
+                                    </div>
+                                    <div className="border-l-2 border-white/30 pl-4 py-1">
+                                        <p className="text-[10px] font-bold uppercase tracking-widest text-[#f0dfb3] mb-1">State Agent</p>
+                                        <p className="text-sm font-medium">Sanwo-Olu & Hamzat (2019)</p>
+                                    </div>
+                                </div>
                             </motion.div>
 
                         </div>
